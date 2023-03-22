@@ -1,0 +1,17 @@
+UI_IT = {
+	UI_received_reward_start = "Wow, ",
+	UI_received_reward_end = " magically appeared* in my pockets!",
+	UI_received_kill_reward_start = "My war crimes have materialized ",
+	UI_received_kill_reward_end = ", god damn it!",
+	UI_welcome_message =     "<CENTRE><H1>Welcome to La Resistenza! <TEXT> <IMAGECENTRE:media/ui/Intro.png><LINE>" ..
+                            "<CENTRE> <H1>  Custom rewards for the die-hard.  <LINE>" ..
+                            "<CENTRE> <SIZE:small> You will receive rewards every 24H for the first 7 Days and every week of life in the game thereafter! <LINE> " ..
+			"<CENTRE> <SIZE:small> You will receive items convertible to cash every 100/200/300/400/500/1000/2000/5000/10,000/20,000 Kills!  <LINE> " ..
+                            "<TEXT><IMAGECENTRE:media/ui/Rewardsimmage.png><LINE>"..
+                            "<CENTRE> <H1> Around here we use Money as our currency of exchange. <LINE> " ..
+                            "<CENTRE> <SIZE:small>They can be Deposited in the Budget and used to purchase items in the Market and Express at spawnpoints!<LINE> " ..
+				"<CENTRE> <SIZE:small>Remember not to throw away the Spiffos (they contain Money) and open all Wallets!<LINE> " ..
+                            "<TEXT><IMAGE:media/ui/intro_marketEN.png><LINE>"
+						
+            
+}

@@ -1,0 +1,20 @@
+Tooltip_EN = {
+Tooltip_rewards_Katana20D = "x1.2 Durability",
+Tooltip_rewards_Katana50D = "x1.5 Durability",
+Tooltip_rewards_Katana100D = "x2 Durability",
+Tooltip_rewards_Machete20D = "x1.2 Durability",
+Tooltip_rewards_Machete50D = "x1.5 Durability",
+Tooltip_rewards_Machete100D = "x2 Durability",
+Tooltip_rewards_MeatCleaverS = "x2 Durability x1.2 Damange",
+Tooltip_rewards_NightstickS = "x2 Durability x1.2 Damange",
+Tooltip_rewards_CrowbarS = "x1.2 Critic Chance x0.8 Weight",
+Tooltip_rewards_PenOdino = "Hit from distance",
+Tooltip_rewards_Jacket_PaddedRep = "Repairable",
+Tooltip_rewards_LongJohnsFrodoS = "Repairable",
+Tooltip_rewards_LongJohnsFrodoH = "Made in China",
+Tooltip_rewards_LongJohnsFrodo = "Made in China",
+Tooltip_rewards_SledgehammerS = "Can't Destroy, nice for fight",
+Tooltip_rewards_WoodenLanceS = "x4 Durability",
+Tooltip_rewards_SpearMacheteS = "x1.5 Durability",
+Tooltip_rewards_AxeStoneCraft = "Low Damage , High Durability"
+	}
