@@ -45,8 +45,8 @@ rewardMultiplier["Base.Wallet2"] = 2
 rewardMultiplier["Base.Wallet3"] = 3
 rewardMultiplier["Base.Wallet4"] = 4
 
-local hourMilestones = {24, 48, 72, 96, 120, 144, 168, 336, 504, 672, 840, 1008, 1176, 1344, 1512, 1680, 1848, 2016, 8736}
-local killMilestones = {100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000, 10000, 20000}
+hourMilestones = {24, 48, 72, 96, 120, 144, 168, 336, 504, 672, 840, 1008, 1176, 1344, 1512, 1680, 1848, 2016, 8736}
+killMilestones = {100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000, 10000, 20000}
 
 local function giveReward(player, rewardType)
 	
