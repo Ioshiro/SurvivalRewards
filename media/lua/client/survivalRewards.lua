@@ -5,48 +5,119 @@ rewards[1] = {"Base.Wallet"}
 rewards[2] = {"Base.Wallet2"}
 rewards[3] = {"Base.Wallet3"}
 rewards[4] = {"Base.Wallet4"} 
-rewards[5] = {"Base.Spiffo"}
-rewards[6] = {"Rewards.NightstickS" , "Rewards.CrowbarS" , "Rewards.MeatCleaverS" , "Rewards.NightstickS" , "Rewards.MeatCleaverS"}
-rewards[7] = {"MoneyToXP.MoneyStak" ,  "Rewards.LongJohnsFrodoL"}
-rewards[8] = {"Rewards.SledgehammerS" , "Rewards.Machete20D" , "Rewards.Katana20D" , "Rewards.Machete20D" , "Rewards.Machete20D"}
-rewards[9] = {"Rewards.Machete50D" , "Rewards.Katana50D"  , "Rewards.LongJohnsFrodoH" }
-rewards[10] = {"Base.SpiffoBig" ,  "Rewards.Katana50D" , "Rewards.Jacket_PaddedRep" , "Base.SpiffoBig" }
-rewards[11] = {"Base.SpiffoBig" , "Rewards.SpearMacheteS" , "Rewards.LongJohnsFrodoH" , "Base.SpiffoBig"}
-rewards[12] = {"Rewards.Katana50D"}
-rewards[13] = {"Rewards.Machete100D" , "Rewards.LongJohnsFrodoS" , "Rewards.SpearMacheteS"}
-rewards[14] = {"Base.Money"}
-rewards[15] = {"Rewards.SpearMacheteS"}
-rewards[16] = {"Rewards.Machete100D" , "Rewards.LongJohnsFrodoS"}
-rewards[17] = {"Rewards.Katana100D"}
-rewards[18] = {"MoneyToXP.MoneyBriefCase"}
-rewards[19] = {"Base.KatePic"}
+rewards[5] = {"MoneyToXP.Droga1"}
+rewards[6] = {"MoneyToXP.Droga2"}
+rewards[7] = {"MoneyToXP.Droga3"}
+-- 1 mese
+rewards[8] = {"Base.Spiffo" }
+
+--2 mesi
+rewards[9] = {"MoneyToXP.Droga4"}
+--3 mesi
+rewards[10] = {"MoneyToXP.Rotolo"}
+--4 mesi
+rewards[11] = {"MoneyToXP.Mazzetta"}
+--5mesi
+rewards[12] = {"Base.SpiffoBig"}
+--6mesi
+rewards[13] = {"MoneyToXP.Droga5"}
+--7mesi
+rewards[14] = {"MoneyToXP.Valigetta2000"}
+--8mesi
+rewards[15] = {"MoneyToXP.Valigetta5000"}
+--1anno
+rewards[16] = {"???"}
+
+
 
 local killRewards = {}
+--100
 killRewards[1] = {"Base.Wallet"}
+--200
 killRewards[2] = {"Base.Wallet2"}
-killRewards[3] = {"Base.Wallet3"}    
-killRewards[4] = {"Base.Wallet4"}         
-killRewards[5] = {"Base.Spiffo"}               
-killRewards[6] = {"MoneyToXP.XPMoneyStack"}
-killRewards[7] = {"MoneyToXP.XPMoneyStack"}   
-killRewards[8] = {"Base.SpiffoBig"}
-killRewards[9] = {"Base.SpiffoBig"}
-killRewards[10] = {"Base.Money"}
-killRewards[11] = {"MoneyToXP.MoneyBriefCase"}
-killRewards[12] = {"Base.KatePic"}
+--300
+killRewards[3] = {"Base.Wallet3"} 
+--400   
+killRewards[4] = {"Base.Wallet4"} 
+--500        
+killRewards[5] = {"MoneyToXP.Money"} 
+--1000              
+killRewards[6] = {"Base.Spiffo"} 
+--2000
+killRewards[7] = {"MoneyToXP.Rotolo"}  
+--3000  
+killRewards[8] = {"MoneyToXP.Mazzetta"} 
+--4000
+killRewards[9] = {"Base.SpiffoBig"} 
+--5000
+killRewards[10] = {"Rewards.ColtelloOro,Rewards.MannaiaOro,MoneyToXPValigetta2000"}
+--10000
+killRewards[11] = {"Rewards.MazzettaOro,Rewards.AccettaOro,MoneyToXPValigetta5000"}
+--20000
+killRewards[12] = {"Rewards.MannaiaOro,Rewards.MazzaBaseballOro,Rewards.AccettaOro"}
+--30000
+killRewards[13] = {"Rewards.AccettaOro,Rewards.AsciaOro,Rewards.MazzaBaseballOro"}
+--40000
+killRewards[14] = {"Rewards.MazzaBaseballOro,Rewards.LanciaOro,Rewards.AsciaOro"}
+--50000
+killRewards[15] = {"Rewards.AsciaOro,Rewards.MaceteOro,Rewards.LanciaOro,Rewards.LanciaOro"}
+--100000
+killRewards[16] = {"Rewards.KatanaOro"}
+
 
 local rewardMultiplier = {}
-rewardMultiplier["Base.Money"] = 300
-rewardMultiplier["Base.ShotgunShellsBox"] = 2
-rewardMultiplier["Base.Staples"] = 1
-rewardMultiplier["Base.NailsBox"] = 1
+
+rewardMultiplier["MoneyToXP.Rotolo"] = 4
+rewardMultiplier["Base.Money"] = 50
 rewardMultiplier["Base.Wallet"] = 1
 rewardMultiplier["Base.Wallet2"] = 2
 rewardMultiplier["Base.Wallet3"] = 3
 rewardMultiplier["Base.Wallet4"] = 4
 
-hourMilestones = {24, 48, 72, 96, 120, 144, 168, 336, 504, 672, 840, 1008, 1176, 1344, 1512, 1680, 1848, 2016, 8736}
-killMilestones = {100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000, 10000, 20000}
+hourMilestones = {
+	--1 giorno
+	24,
+	--2 giorno
+	48,
+	--3 giorno
+	72,
+	--4 giorno
+	96, 
+	--5 giorno
+	120,
+   --6 giorno
+	144,
+    --7 giorno
+	168,
+	-- 14
+	336, 
+	-- 21
+	504,
+    --28 1 mese
+	672,
+    --35
+	840, 
+	-- 42
+	1008, 
+	--49
+	1176,
+	--56 2 mesi
+	1344,
+	--63
+	1512,
+	-- 70
+	1680, 
+	--77
+	1848,
+	--84
+	2016,
+	-- 91 3 mesi
+	2.688,	
+	-- 365
+	8736}
+	
+	
+killMilestones = {100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000, 10000, 20000, 30000, 40000, 50000, 100000}
 
 local function giveReward(player, rewardType)
 	
