@@ -100,7 +100,7 @@ hourMilestones = {
 	--5mesi
 	3360,
 	--6mesi
-	4032	
+	4032,	
 	--7mesi
 	4704,	
 	--8 mesi
