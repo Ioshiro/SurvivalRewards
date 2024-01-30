@@ -22,11 +22,11 @@ rewards[12] = {"Base.SpiffoBig"}
 --6mesi
 rewards[13] = {"MoneyToXP.Droga5"}
 --7mesi
-rewards[14] = {"MoneyToXP.Valigetta2000"}
+rewards[14] = {"MoneyToXP.Valigetta5"}
 --8mesi
-rewards[15] = {"MoneyToXP.Valigetta5000"}
+rewards[15] = {"MoneyToXP.Valigetta10"}
 --1anno
-rewards[16] = {"???"}
+--rewards[16] = {"???"}
 
 
 
@@ -50,19 +50,19 @@ killRewards[8] = {"MoneyToXP.Mazzetta"}
 --4000
 killRewards[9] = {"Base.SpiffoBig"} 
 --5000
-killRewards[10] = {"Rewards.ColtelloOro,Rewards.MannaiaOro,MoneyToXPValigetta2000"}
---10000
-killRewards[11] = {"Rewards.MazzettaOro,Rewards.AccettaOro,MoneyToXPValigetta5000"}
---20000
-killRewards[12] = {"Rewards.MannaiaOro,Rewards.MazzaBaseballOro,Rewards.AccettaOro"}
---30000
-killRewards[13] = {"Rewards.AccettaOro,Rewards.AsciaOro,Rewards.MazzaBaseballOro"}
---40000
-killRewards[14] = {"Rewards.MazzaBaseballOro,Rewards.LanciaOro,Rewards.AsciaOro"}
---50000
-killRewards[15] = {"Rewards.AsciaOro,Rewards.MaceteOro,Rewards.LanciaOro,Rewards.LanciaOro"}
---100000
-killRewards[16] = {"Rewards.KatanaOro"}
+-- killRewards[10] = {"Rewards.ColtelloOro,Rewards.MannaiaOro,MoneyToXPValigetta2000"}
+-- --10000
+-- killRewards[11] = {"Rewards.MazzettaOro,Rewards.AccettaOro,MoneyToXPValigetta5000"}
+-- --20000
+-- killRewards[12] = {"Rewards.MannaiaOro,Rewards.MazzaBaseballOro,Rewards.AccettaOro"}
+-- --30000
+-- killRewards[13] = {"Rewards.AccettaOro,Rewards.AsciaOro,Rewards.MazzaBaseballOro"}
+-- --40000
+-- killRewards[14] = {"Rewards.MazzaBaseballOro,Rewards.LanciaOro,Rewards.AsciaOro"}
+-- --50000
+-- killRewards[15] = {"Rewards.AsciaOro,Rewards.MaceteOro,Rewards.LanciaOro,Rewards.LanciaOro"}
+-- --100000
+-- killRewards[16] = {"Rewards.KatanaOro"}
 
 
 local rewardMultiplier = {}
@@ -89,31 +89,23 @@ hourMilestones = {
 	144,
     --7 giorno
 	168,
-	-- 14
-	336, 
-	-- 21
-	504,
     --28 1 mese
 	672,
-    --35
-	840, 
-	-- 42
-	1008, 
-	--49
-	1176,
 	--56 2 mesi
 	1344,
-	--63
-	1512,
-	-- 70
-	1680, 
-	--77
-	1848,
-	--84
+	-- 3 mesi
 	2016,
-	-- 91 3 mesi
-	2.688,	
-	-- 365
+	-- 4 mesi 
+	2688,
+	--5mesi
+	3360,
+	--6mesi
+	4032	
+	--7mesi
+	4704,	
+	--8 mesi
+	5376,
+	-- 1 anno
 	8736}
 	
 	
