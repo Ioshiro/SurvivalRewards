@@ -40,7 +40,7 @@ killRewards[3] = {"Base.Wallet3"}
 --400   
 killRewards[4] = {"Base.Wallet4"} 
 --500        
-killRewards[5] = {"MoneyToXP.Money"} 
+killRewards[5] = {"Base.Money"} 
 --1000              
 killRewards[6] = {"Base.Spiffo"} 
 --2000
@@ -50,19 +50,19 @@ killRewards[8] = {"MoneyToXP.Mazzetta"}
 --4000
 killRewards[9] = {"Base.SpiffoBig"} 
 --5000
--- killRewards[10] = {"Rewards.ColtelloOro,Rewards.MannaiaOro,MoneyToXPValigetta2000"}
+killRewards[10] = {"SOMWReward.SRewardKnife,SOMWReward.SRewardCleaver,SOMWReward.SRewardHammer,MoneyToXPValigetta2000"} 
 -- --10000
--- killRewards[11] = {"Rewards.MazzettaOro,Rewards.AccettaOro,MoneyToXPValigetta5000"}
--- --20000
--- killRewards[12] = {"Rewards.MannaiaOro,Rewards.MazzaBaseballOro,Rewards.AccettaOro"}
+killRewards[11] = {"SOMWReward.SRewardHammer,SOMWReward.SRewardHandAxe,MoneyToXPValigetta5000"}
+--20000
+killRewards[12] = {"SOMWReward.SRewardCleaver,Rewards.SOMWReward.SRewardBaseballBat,SOMWReward.SRewardHandAxe"}
 -- --30000
--- killRewards[13] = {"Rewards.AccettaOro,Rewards.AsciaOro,Rewards.MazzaBaseballOro"}
+killRewards[13] = {"SOMWReward.SRewardHandAxe,SOMWReward.SRewardAxe,Rewards.SOMWReward.SRewardBaseballBat"}
 -- --40000
--- killRewards[14] = {"Rewards.MazzaBaseballOro,Rewards.LanciaOro,Rewards.AsciaOro"}
+killRewards[14] = {"Rewards.SOMWReward.SRewardBaseballBat,Rewards.SOMWReward.SRewardSpear,SOMWReward.SRewardAxe"}
 -- --50000
--- killRewards[15] = {"Rewards.AsciaOro,Rewards.MaceteOro,Rewards.LanciaOro,Rewards.LanciaOro"}
+killRewards[15] = {"SOMWReward.SRewardAxe,SOMWReward.SRewardMachete,SOMWReward.SRewardSpear,SOMWReward.SRewardSpear"}
 -- --100000
--- killRewards[16] = {"Rewards.KatanaOro"}
+killRewards[16] = {"SOMWReward.SRewardKatana"}
 
 
 local rewardMultiplier = {}
