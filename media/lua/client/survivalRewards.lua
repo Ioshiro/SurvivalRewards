@@ -6,13 +6,13 @@ rewards[2] = {"Base.Wallet2"}
 rewards[3] = {"Base.Wallet3"}
 rewards[4] = {"Base.Wallet4"} 
 rewards[5] = {"MoneyToXP.Droga1"}
-rewards[6] = {"MoneyToXP.Droga2"}
-rewards[7] = {"MoneyToXP.Droga3"}
+rewards[6] = {"Base.Money"}
+rewards[7] = {"MoneyToXP.Droga2"}
 -- 1 mese
 rewards[8] = {"Base.Spiffo" }
 
 --2 mesi
-rewards[9] = {"MoneyToXP.Droga4"}
+rewards[9] = {"MoneyToXP.Droga3"}
 --3 mesi
 rewards[10] = {"MoneyToXP.Rotolo"}
 --4 mesi
@@ -20,13 +20,13 @@ rewards[11] = {"MoneyToXP.Mazzetta"}
 --5mesi
 rewards[12] = {"Base.SpiffoBig"}
 --6mesi
-rewards[13] = {"MoneyToXP.Droga5"}
+rewards[13] = {"MoneyToXP.Droga4"}
 --7mesi
 rewards[14] = {"MoneyToXP.Valigetta5"}
 --8mesi
 rewards[15] = {"MoneyToXP.Valigetta10"}
 --1anno
---rewards[16] = {"???"}
+--rewards[16] = {"MoneyToXP.Droga5"}
 
 
 
@@ -89,24 +89,24 @@ hourMilestones = {
 	144,
     --7 giorno
 	168,
-    --28 1 mese
-	672,
+    --30 1 mese
+	720,
 	--56 2 mesi
-	1344,
+	1440,
 	-- 3 mesi
-	2016,
+	2160,
 	-- 4 mesi 
-	2688,
+	2880,
 	--5mesi
-	3360,
+	3600,
 	--6mesi
-	4032,	
+	5040,	
 	--7mesi
 	4704,	
 	--8 mesi
-	5376,
+	5760,
 	-- 1 anno
-	8736}
+	8640}
 	
 	
 killMilestones = {100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000, 10000, 20000, 30000, 40000, 50000, 100000}
