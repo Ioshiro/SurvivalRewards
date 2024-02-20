@@ -26,7 +26,7 @@ rewards[14] = {"MoneyToXP.Valigetta5"}
 --8mesi
 rewards[15] = {"MoneyToXP.Valigetta10"}
 --1anno
---rewards[16] = {"MoneyToXP.Droga5"}
+rewards[16] = {"MoneyToXP.Droga5"}
 
 
 
