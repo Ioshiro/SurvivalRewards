@@ -9,16 +9,16 @@ rewards[5] = {"MoneyToXP.Droga1"}
 rewards[6] = {"Base.Money"}
 rewards[7] = {"MoneyToXP.Droga2"}
 -- 1 mese
-rewards[8] = {"Base.Spiffo" }
+rewards[8] = {"Base.Spiffo,Jacket_PaddedRep,LongJohnsFrodoH" }
 
 --2 mesi
 rewards[9] = {"MoneyToXP.Droga3"}
 --3 mesi
-rewards[10] = {"MoneyToXP.Rotolo"}
+rewards[10] = {"MoneyToXP.Rotolo,LongJohnsFrodoL"}
 --4 mesi
 rewards[11] = {"MoneyToXP.Mazzetta"}
 --5mesi
-rewards[12] = {"Base.SpiffoBig"}
+rewards[12] = {"Base.SpiffoBig,LongJohnsFrodoS"}
 --6mesi
 rewards[13] = {"MoneyToXP.Droga4"}
 --7mesi
@@ -27,7 +27,6 @@ rewards[14] = {"MoneyToXP.Valigetta5"}
 rewards[15] = {"MoneyToXP.Valigetta10"}
 --1anno
 rewards[16] = {"MoneyToXP.Droga5"}
-
 
 
 local killRewards = {}
