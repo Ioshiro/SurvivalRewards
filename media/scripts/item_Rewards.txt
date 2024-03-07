@@ -770,6 +770,24 @@ item Scarf_WhiteS
   WindResistance = 1.0,
   FabricType = Cotton,
 }
+item Jacket_WhiteTINT
+{
+    Type = Clothing,
+    DisplayName = Super Giacca,
+    ClothingItem = Jacket_WhiteTINT,
+    BodyLocation = Jacket,
+    Icon = Jacket_White,
+    BloodLocation = Jacket,
+    RunSpeedModifier = 1.05,
+    CombatSpeedModifier = 1.05,
+    BiteDefense = 10,
+    ScratchDefense = 25,
+    Insulation = 0.5,
+    WindResistance = 0.35,
+    FabricType = Cotton,
+    Weight = 2,
+    WorldStaticModel = JacketCoat_Ground,
+}
 
 	item AxeStoneCraft
     {
