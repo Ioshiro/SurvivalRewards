@@ -737,23 +737,20 @@ DisplayCategory = Weapon,
     WaterResistance = 0.8,
     WorldStaticModel = Boots_Ground,
 }
-item Gloves_LeatherGlovesS
-{
-  DisplayCategory = Accessory,
-  Type = Clothing,
-  DisplayName = Super Guanti di pelle,
-  ClothingItem = Gloves_LeatherGloves,
-  BodyLocation = Hands,
-  IconsForTexture = GlovesLeatherBlackpng;GlovesLeatherBrown,
-  BloodLocation = Hands,
-  CombatSpeedModifier = 1.05,
-  ScratchDefense = 30,
-  BiteDefense = 15,
-  Weight = 0.1,
-  Insulation = 0.75,
-  WindResistance = 0.75,
-  FabricType = Leather,
-  WorldStaticModel = Gloves_Ground,
+	item Gloves_FingerlessGlovesS
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Super guanti,
+		ClothingItem = Gloves_FingerlessGloves,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+        CombatSpeedModifier = 1.05,
+		Icon = GlovesFingerlessWhite,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
 }
 item Scarf_WhiteS
 {
