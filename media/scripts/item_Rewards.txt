@@ -757,7 +757,7 @@ item PonchoYellow
     {
         DisplayCategory = Clothing,
         Type = Clothing,
-        DisplayName = Poncho,
+        DisplayName = Poncho della Resistenza,
         ClothingItem = PonchoYellowDOWN,
         BodyLocation = Jacket_Down,
         Icon = HoodieWhite,
