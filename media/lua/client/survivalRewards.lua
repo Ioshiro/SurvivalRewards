@@ -9,7 +9,7 @@ rewards[5] = {"MoneyToXP.Droga1"}
 rewards[6] = {"Base.Money"}
 rewards[7] = {"MoneyToXP.Droga2"}
 -- 1 mese
-rewards[8] = {"Rewards.Jacket_PaddedRep,Rewards.LongJohnsFrodoH;Rewards.Shoes_RedTrainersS;Rewards.Gloves_FingerlessGlovesS;Rewards.Scarf_WhiteS,Rewards.TrousersS" }
+rewards[8] = {"Base.Spiffo,Rewards.LongJohnsFrodoH,Rewards.Shoes_RedTrainersS,Rewards.Gloves_FingerlessGlovesS;Rewards.Scarf_WhiteS,Rewards.TrousersS" }
 
 --2 mesi
 rewards[9] = {"MoneyToXP.Droga3"}
