@@ -732,6 +732,23 @@ DisplayCategory = Weapon,
         WindResistance = 0.3,
         WorldStaticModel = Gloves_Ground,
 }
+item FingerlessGlovesS
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Super guantyni,
+		ClothingItem = Gloves_FingerlessGloves,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+        CombatSpeedModifier = 1.05,
+		Icon = GlovesFingerlessWhite,
+		Weight = 0.1,
+        BiteDefense = 5,
+        ScratchDefense = 15,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+}
 item PonchoYellow
     {
         DisplayCategory = Clothing,
