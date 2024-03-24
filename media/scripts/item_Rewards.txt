@@ -717,21 +717,7 @@ DisplayCategory = Weapon,
         WorldStaticModel = Shoes_Ground,
 	}
 
-	item Gloves_FingerlessGlovesS
-	{
-	    DisplayCategory = Accessory,
-		Type = Clothing,
-		DisplayName = Super guanti,
-		ClothingItem = Gloves_FingerlessGloves,
-		BodyLocation = Hands,
-		BloodLocation = Hands,
-        CombatSpeedModifier = 1.05,
-		Icon = GlovesFingerlessWhite,
-		Weight = 0.1,
-        Insulation = 0.25,
-        WindResistance = 0.3,
-        WorldStaticModel = Gloves_Ground,
-}
+	
 item FingerlessGlovesS
 	{
 	    DisplayCategory = Accessory,

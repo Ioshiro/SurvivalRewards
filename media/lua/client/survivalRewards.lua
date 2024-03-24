@@ -9,16 +9,16 @@ rewards[5] = {"MoneyToXP.Droga1"}
 rewards[6] = {"Base.Money"}
 rewards[7] = {"MoneyToXP.Droga2"}
 -- 1 mese
-rewards[8] = {"Base.Spiffo,Rewards.LongJohnsFrodoH,Rewards.Shoes_RedTrainersS,Rewards.Gloves_FingerlessGlovesS,Rewards.Scarf_WhiteS,Rewards.TrousersS" }
+rewards[8] = {"Base.Spiffo" , " Rewards.LongJohnsFrodoH" ," Rewards.Shoes_RedTrainersS" , "Rewards.FingerlessGlovesS" , "Rewards.Scarf_WhiteS" ,"Rewards.TrousersS" }
 
 --2 mesi
 rewards[9] = {"MoneyToXP.Droga3"}
 --3 mesi
-rewards[10] = {"MoneyToXP.Rotolo,Rewards.LongJohnsFrodoL"}
+rewards[10] = {"MoneyToXP.Rotolo" ," Rewards.LongJohnsFrodoL"}
 --4 mesi
 rewards[11] = {"MoneyToXP.Mazzetta"}
 --5mesi
-rewards[12] = {"Base.SpiffoBig,Rewards.LongJohnsFrodoS"}
+rewards[12] = {"Base.SpiffoBig" , "Rewards.LongJohnsFrodoS"}
 --6mesi
 rewards[13] = {"MoneyToXP.Droga4"}
 --7mesi
@@ -49,17 +49,17 @@ killRewards[8] = {"MoneyToXP.Mazzetta"}
 --4000
 killRewards[9] = {"Base.SpiffoBig"} 
 --5000
-killRewards[10] = {"SOMWReward.SRewardKnife,SOMWReward.SRewardCleaver,SOMWReward.SRewardHammer;Rewards.LongJohnsFrodoL"} 
+killRewards[10] = {"SOMWReward.SRewardKnife " , "SOMWReward.SRewardCleaver ", "SOMWReward.SRewardHammer " , "Rewards.LongJohnsFrodoL"} 
 -- --10000
-killRewards[11] = {"SOMWReward.SRewardHammer,SOMWReward.SRewardHandAxe,MoneyToX.Valigetta2000"}
+killRewards[11] = { "SOMWReward.SRewardHammer", "SOMWReward.SRewardHandAxe ", "MoneyToX.Valigetta2000"}
 --20000
-killRewards[12] = {"SOMWReward.SRewardCleaver,SOMWReward.SRewardBaseballBat,SOMWReward.SRewardHandAxe,MoneyToXPValigetta5000"}
+killRewards[12] = {"SOMWReward.SRewardCleaver" , "SOMWReward.SRewardBaseballBat" , "SOMWReward.SRewardHandAxe " , "MoneyToXPValigetta5000"}
 -- --30000
-killRewards[13] = {"SOMWReward.SRewardHandAxe,SOMWReward.SRewardAxe,SOMWReward.SRewardBaseballBat"}
+killRewards[13] = {"SOMWReward.SRewardHandAxe" , "SOMWReward.SRewardAxe" , "SOMWReward.SRewardBaseballBat"}
 -- --40000
-killRewards[14] = {"SOMWReward.SRewardBaseballBat,SOMWReward.SRewardSpear,SOMWReward.SRewardAxe"}
+killRewards[14] = {"SOMWReward.SRewardBaseballBat" , "SOMWReward.SRewardSpear" , "SOMWReward.SRewardAxe"}
 -- --50000
-killRewards[15] = {"SOMWReward.SRewardAxe,SOMWReward.SRewardMachete,SOMWReward.SRewardSpear,SOMWReward.SRewardSpear"}
+killRewards[15] = {"SOMWReward.SRewardAxe" , "SOMWReward.SRewardMachete" ," SOMWReward.SRewardSpear" ,"SOMWReward.SRewardSpear"}
 -- --100000
 killRewards[16] = {"SOMWReward.SRewardKatana"}
 
