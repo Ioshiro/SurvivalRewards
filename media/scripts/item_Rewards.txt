@@ -697,15 +697,15 @@ DisplayCategory = Weapon,
         WorldStaticModel = BoilerSuit_Ground,
 		Tooltip = Tooltip_rewards_LongJohnsFrodoS
 	}
-    	item Shoes_RedTrainersS
+    	item Shoes_BlueTrainersS
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Super Sneakers,
-		ClothingItem = Shoes_RedTrainers,
+		ClothingItem = Shoes_BlueTrainers,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
-		Icon = ShoesRunningRed,
+		Icon = ShoesRunningBlue,
 		StompPower = 1.8,
 		ConditionLowerChanceOneIn = 10,
         ConditionMax = 24,
@@ -1555,23 +1555,7 @@ item Hat_FootballHelmetS
         WaterResistance = 0.85,
         Weight = 1.5,
 	}
-item Hat_GasMaskS
-	{
-	    DisplayCategory = Accessory,
-    ScratchDefense = 100,
-    BiteDefense = 100,
-		Type = Clothing,
-		DisplayName = Super Gas Mask,
-		ClothingItem = Hat_GasMask,
-		BodyLocation = MaskEyes,
-		Icon = GasMask,
-		CanHaveHoles = false,
-        BloodLocation = Head,
-        Insulation = 0.75,
-        WindResistance = 0.60,
-        WaterResistance = 1.0,
-		Tags = GasMask,
-	}
+
 item Hat_GolfHatS
 	{
 	    DisplayCategory = Accessory,
