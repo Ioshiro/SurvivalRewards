@@ -9,7 +9,7 @@ rewards[5] = {"MoneyToXP.Droga1"}
 rewards[6] = {"Base.Money"}
 rewards[7] = {"MoneyToXP.Droga2"}
 -- 1 mese
-rewards[8] = {"Base.Spiffo" , " Rewards.LongJohnsFrodoH" ," Rewards.Shoes_RedTrainersS" , "Rewards.FingerlessGlovesS" , "Rewards.Scarf_WhiteS" ,"Rewards.TrousersS" }
+rewards[8] = { "Rewards.FingerlessGlovesS" , "Rewards.Scarf_WhiteS" ,"Rewards.TrousersS" }
 
 --2 mesi
 rewards[9] = {"MoneyToXP.Droga3"}
@@ -99,9 +99,9 @@ hourMilestones = {
 	--5mesi
 	3600,
 	--6mesi
-	5040,	
+	4304,	
 	--7mesi
-	4704,	
+	5040,	
 	--8 mesi
 	5760,
 	-- 1 anno
