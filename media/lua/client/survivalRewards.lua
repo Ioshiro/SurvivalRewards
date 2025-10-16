@@ -49,11 +49,11 @@ killRewards[8] = {"MoneyToXP.Mazzetta"}
 --4000
 killRewards[9] = {"Base.SpiffoBig"} 
 --5000
-killRewards[10] = {"SOMWReward.SRewardKnife " , "SOMWReward.SRewardCleaver ", "SOMWReward.SRewardHammer " , "Rewards.LongJohnsFrodoL"} 
+killRewards[10] = {"Rewards.LongJohnsFrodoL"}
 -- --10000
-killRewards[11] = { "SOMWReward.SRewardHammer", "SOMWReward.SRewardHandAxe ", "MoneyToXP.Valigetta5"}
+killRewards[11] = {"MoneyToXP.Valigetta5"}
 --20000
-killRewards[12] = {"SOMWReward.SRewardCleaver" , "SOMWReward.SRewardBaseballBat" , "SOMWReward.SRewardHandAxe " , "MoneyToXP.Valigetta10"}
+killRewards[12] = {"MoneyToXP.Valigetta10"}
 -- --30000
 killRewards[13] = {"SOMWReward.SRewardHandAxe" , "SOMWReward.SRewardAxe" , "SOMWReward.SRewardBaseballBat"}
 -- --40000
